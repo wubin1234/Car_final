@@ -58,112 +58,7 @@
 
 <body>
 <!--响应式导航-->
-<div class="container-fluid">
-    <div class="row">
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
-                        <span class="sr-only">切换导航</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.jsp">大乘汽车</a>
-                </div>
-                <div>
-                    <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                        <ul class="nav navbar-nav nar navbar-right">
-                            <li>
-                                <a href="login.jsp">登录注册</a>
-                            </li>
-                            <li>
-                                <a href="${path}/four/Business_cooperation.jsp">商务合作</a>
-                            </li>
-                            <li>
-                                <a href="${path}/two/ppcx/ppcx.jsp">品牌车型</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    大乘天地
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="${path}/three/Overview.jsp">大乘概述</a>
-                                    </li>
-                                    <li>
-                                        <a href="${path}/three/Positioning.jsp">品牌定位</a>
-                                    </li>
-                                    <li>
-                                        <a href="${path}/three/Promise.jsp">大乘承诺</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    资讯动态
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="${path}/two/zxdt/xwdt.jsp">新闻动态</a>
-                                    </li>
-                                    <li>
-                                        <a href="${path}/two/zxdt/zxdt.jsp">视屏集锦</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    关爱服务
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="${path}/four/Care_service.jsp">关爱服务</a>
-                                    </li>
-                                    <li>
-                                        <a href="${path}/four/New_Energy_services.jsp">新能源服务</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    更多服务
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="yysj.jsp">预约试驾</a>
-                                    </li>
-                                    <li>
-                                        <a href="orange.jsp">橙子俱乐部</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    会员活动
-                                    <b class="caret"></b>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="#">最新活动</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">精彩回顾</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
+<%@include file="../common/nar.jsp"%>
 <!--响应式导航结束-->
 
 <!--登录-->
@@ -187,20 +82,6 @@
                             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                         </div>
                     </div>
-                    <div class="form-group has-feedback">
-                        <label for="lastname" class="col-sm-2 control-label">手机</label>
-                        <div class="col-md-5">
-                            <input type="text" class="form-control" id="lastname" placeholder="请输入手机号">
-                            <span class="glyphicon glyphicon-phone form-control-feedback"></span>
-                        </div>
-                    </div>
-                    <div class="form-group has-feedback">
-                        <label for="lastname" class="col-sm-2 control-label">住址</label>
-                        <div class="col-md-5">
-                            <input type="text" class="form-control" id="lastname" placeholder="请输入住址">
-                            <span class="glyphicon glyphicon-home form-control-feedback"></span>
-                        </div>
-                    </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <div class="checkbox">
@@ -216,7 +97,7 @@
                     </div>
                     <div class="form-group" style="float: left; margin-left: 15px;">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button class="btn btn-default"><a href="register.jsp">注册</a></button>
+                            <a href="register.jsp" class="btn btn-default" role="button">注册</a>
                         </div>
                     </div>
                 </fieldset>
