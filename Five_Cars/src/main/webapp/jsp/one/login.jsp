@@ -24,7 +24,7 @@
             background: url(../../img/one/login_background.jpg) no-repeat;
             height: 100%;
             width: 100%;
-            background-size:100% 140% ;
+            background-size:100% 170% ;
 
         }
         #login{
@@ -187,20 +187,6 @@
                             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                         </div>
                     </div>
-                    <div class="form-group has-feedback">
-                        <label for="lastname" class="col-sm-2 control-label">手机</label>
-                        <div class="col-md-5">
-                            <input type="text" class="form-control" id="lastname" placeholder="请输入手机号">
-                            <span class="glyphicon glyphicon-phone form-control-feedback"></span>
-                        </div>
-                    </div>
-                    <div class="form-group has-feedback">
-                        <label for="lastname" class="col-sm-2 control-label">住址</label>
-                        <div class="col-md-5">
-                            <input type="text" class="form-control" id="lastname" placeholder="请输入住址">
-                            <span class="glyphicon glyphicon-home form-control-feedback"></span>
-                        </div>
-                    </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
                             <div class="checkbox">
@@ -216,7 +202,7 @@
                     </div>
                     <div class="form-group" style="float: left; margin-left: 15px;">
                         <div class="col-sm-offset-2 col-sm-10">
-                            <button class="btn btn-default"><a href="register.jsp">注册</a></button>
+                            <a href="register.jsp" class="btn btn-default" role="button">注册</a>
                         </div>
                     </div>
                 </fieldset>

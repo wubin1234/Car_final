@@ -166,11 +166,11 @@
                 <img src="${path}/img/one/index_three.jpg" alt="通用的占位符缩略图">
                 <div class="caption" style="text-align: center;">
                     <h3>橙子俱乐部</h3>
-                    <p>
-                        <a href="#" class="btn btn-primary" role="button">
-                            进入
-                        </a>
-                    </p>
+                    <%--<p>--%>
+                        <%--<a href="#" class="btn btn-primary" role="button">--%>
+                            <%--进入--%>
+                        <%--</a>--%>
+                    <%--</p>--%>
                 </div>
             </div>
         </div>
@@ -179,11 +179,11 @@
                 <img src="${path}/img/one/index_four.jpg" alt="通用的占位符缩略图">
                 <div class="caption" style="text-align: center;">
                     <h3>品质大乘</h3>
-                    <p>
-                        <a href="#" class="btn btn-primary" role="button">
-                            进入
-                        </a>
-                    </p>
+                    <%--<p>--%>
+                        <%--<a href="#" class="btn btn-primary" role="button">--%>
+                            <%--进入--%>
+                        <%--</a>--%>
+                    <%--</p>--%>
                 </div>
             </div>
         </div>
@@ -192,11 +192,11 @@
                 <img src="${path}/img/one/index_five.jpg">
                 <div class="caption" style="text-align: center;">
                     <h3>大乘商城</h3>
-                    <p>
-                        <a href="#" class="btn btn-primary" role="button">
-                            进入
-                        </a>
-                    </p>
+                    <%--<p>--%>
+                        <%--<a href="#" class="btn btn-primary" role="button">--%>
+                            <%--进入--%>
+                        <%--</a>--%>
+                    <%--</p>--%>
                 </div>
             </div>
         </div>
