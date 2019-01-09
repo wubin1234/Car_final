@@ -24,7 +24,7 @@
             background: url(../../img/one/login_background.jpg) no-repeat;
             height: 100%;
             width: 100%;
-            background-size:100% 140% ;
+            background-size:100% 170% ;
 
         }
         #login{

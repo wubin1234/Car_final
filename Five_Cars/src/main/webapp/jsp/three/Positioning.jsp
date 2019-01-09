@@ -46,7 +46,7 @@ html>
 
     <div class="col-sm-12 col-md-8">
         <a href="#" class="thumbnail">
-            <img src=${path}/img/Three/PI5.png"
+            <img src="${path}/img/Three/PI5.png"
                  alt="通用的占位符缩略图">
         </a>
     </div>
