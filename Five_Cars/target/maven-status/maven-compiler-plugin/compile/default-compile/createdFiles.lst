@@ -1,5 +1,1 @@
-tech\aistar\entity\User.class
 listener\CreatePathListener.class
-tech\aistar\dao\IUserDao.class
-tech\aistar\util\HibernateUtil.class
-tech\aistar\dao\impl\UserDaoImpl.class
