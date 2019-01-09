@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!--A. 閰嶇疆鍜屾暟鎹簱杩炴帴鐨勭浉鍏崇殑淇℃伅-->
+        <!--oracle鏁版嵁搴撶殑椹卞姩-->
+        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <!--閰嶇疆url-->
+        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:XE</property>
+        <!--閰嶇疆鐢ㄦ埛鍚嶅拰瀵嗙爜-->
+        <property name="connection.username">six</property>
+        <property name="connection.password">six</property>
+
+        <!--閰嶇疆涓€涓暟鎹簱鐨勬柟瑷€-->
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+
+        <!--鏄惁鏄剧ずsql璇彞-->
+        <property name="show_sql">true</property>
+        <!--鏄惁鏍煎紡鍖杝ql璇彞-->
+        <property name="format_sql">true</property>
+
+        <!--update - 濡傛灉涓嶅瓨鍦ㄨ〃,鍒欑涓€娆″垱寤?浠ュ悗灏辨槸鏇存柊
+
+            create - 姘歌繙閮芥槸鍏堝垹闄ゅ啀鍒涘缓-->
+        <property name="hbm2ddl.auto">update</property>
+        <!--配置映射的实体类-->
+        <mapping class="tech.aistar.entity.User"></mapping>
+    </session-factory>
+</hibernate-configuration>
