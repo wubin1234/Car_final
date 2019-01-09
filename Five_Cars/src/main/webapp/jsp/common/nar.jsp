@@ -98,10 +98,10 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="#">最新活动</a>
+                                        <a href="${path}/jsp/five/huiyuan.jsp">最新活动</a>
                                     </li>
                                     <li>
-                                        <a href="#">精彩回顾</a>
+                                        <a href="${path}/jsp/five/new_file.jsp">精彩回顾</a>
                                     </li>
                                 </ul>
                             </li>
