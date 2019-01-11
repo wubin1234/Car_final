@@ -10,6 +10,8 @@
 		<!--引入bootstrap.min.css文件-->
 		<link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="../../css/navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../css/four/New_Energy_services.css"/>
+
 	</head>
 
 	<body>
@@ -26,8 +28,9 @@
 						<p>New Energy Servise</p>
 					</div>
 				</div>
+				<div  id="body" style="background-image: url(${path}/img/four/Setting.png);">
 				<img src="${path}/img/four/service-logo.png" />
-				<div class="text-center" style="font-size: 20px;">
+				<div class="text" style="font-size: 20px;">
 					江西大乘汽车有限公司金坛分公司（以下简称大乘汽车金坛分公司）依据《消费者权益保护法》、《产品质量法》、《缺陷汽车产品召回管理条例》、 《家用汽车产品修理、更换、退货责任规定》等相关法律法规的要求，制定产品售后服务保证承诺，接受广大用户和社会各界人士的监督。
 					<p>
 						<a href="http://www.dorcen.com/bocweb//web/img/1.pdf?v=v111">新能源售后保证(下载)</a>
@@ -43,7 +46,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseOne" class="panel-collapse collapse in">
+						<div id="collapseOne" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>主要对整车备件做出了三包期限规定：主要包括底盘类、车身及附件、电器及温控系统等，
 								如动力电池总成、驱动电机、电机控制器保修期限为8年或12万公里，具体见发布的《保修手册》。
@@ -67,7 +70,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseTwo" class="panel-collapse collapse in">
+						<div id="collapseTwo" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>大乘汽车在江苏省常州市金坛区设立售后备件专用仓库，园区内全国货运物流服务商非常发达，充分保障售后服务体系的备件供应时效。各授权经销商及服务站建立了必备的常用件库存，保障了市场客户的备件供应及时性。</p>
 								<p>备件质量保修范围：在授权经销服务商处进行有偿修理时，使用原厂纯正零件因材质或制造上的缺陷引起的故障属于零件保修范围。</p>
@@ -85,7 +88,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseThree" class="panel-collapse collapse in">
+						<div id="collapseThree" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>新能源汽车推广应用城市任意一家大乘维修站维修保养，若维修站解决不了，质保期内提供免费上门服务。</p>
 								
@@ -101,7 +104,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseFour" class="panel-collapse collapse in">
+						<div id="collapseFour" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>公司设有24小时免费咨询电话400-890-5678，接受用户的咨询、投诉与建议，同时要求各个服务网点必须配备24小时热线电话，接收客户反馈信息、快速反应及处理客户车辆遇到的问题。</p>
 								<p>当车辆出现故障，导致车辆无法行驶或事故存在严重安全隐患，且通过远程指导无法排查故障时，服务网点提供24小时救援服务，及时赶到救援现场为用户排除故障。</p>
@@ -119,7 +122,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseFive" class="panel-collapse collapse in">
+						<div id="collapseFive" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>正常保养、易损件的更换8小时内修复，出现设备重大故障及大修10个工作日完成，其余维修服务在3个工作日完成，确保维修质量。</p>
 							</div>
@@ -134,7 +137,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseSix" class="panel-collapse collapse in">
+						<div id="collapseSix" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>针对每一台纯电动乘用车，提供两次免费保养，即行驶2000公里内或3个月内免收首次强保费用，行驶5000公里内或6个月内免收第二次保养费用。</p>
 							</div>
@@ -149,7 +152,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseSeven" class="panel-collapse collapse in">
+						<div id="collapseSeven" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>7.1监测平台简介</p>
 								<p>大乘汽车生产的纯电动乘用车根据GB32960规范要求全部安装车辆运行新能源汽车车载实时监测装置，并纳入新能源汽车监测平台管理。对纯电动乘用车动力电池、驱动电机、整车控制器等信息数据及日常运行状态进行实时监测，对可能出现的问题做到早发现、早处置，确保车辆安全运行。</p>
@@ -175,7 +178,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseEight" class="panel-collapse collapse in">
+						<div id="collapseEight" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>大乘汽车设立全国免费服务热线400-890-5678，为客户提供7×24h全天候服务咨询、外出救援、充电服务、技术支持服务。</p>
 							</div>
@@ -190,7 +193,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseNine" class="panel-collapse collapse in">
+						<div id="collapseNine" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>9.1主动来电处置</p>
 								<p>服务公司设有24小时免费咨询电话400-890-5678，接受用户的咨询、投诉与建议，同时要求各个服务网点必须配备24小时热线电话，接收客户反馈信息，快速反映及处理客户车辆遇到的问题。</p>
@@ -214,7 +217,7 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseTen" class="panel-collapse collapse in">
+						<div id="collapseTen" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>针对每一辆大乘汽车及每一个使用单位，建立对应的用户档案，定期进行跟踪访问，并记录所有客户服务的历史，同时并对客户的满意度进行测评。</p>
 							</div>
@@ -229,14 +232,14 @@
                 </a>
             </h4>
 						</div>
-						<div id="collapseEleven" class="panel-collapse collapse in">
+						<div id="collapseEleven" class="panel-collapse collapse">
 							<div class="panel-body">
 								<p>公司已经与动力电池供应商、动力电池回收商签订动力电池回收协议，动力电池回收商可以按国家法律法规要求回收市场更换下来的动力电池。</p>
 							</div>
 						</div>
 					</div>
 				</div>
-
+			</div>
 			</div>
 
 		</div>

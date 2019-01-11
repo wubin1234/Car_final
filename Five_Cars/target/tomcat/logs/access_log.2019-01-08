@@ -1,7 +1,0 @@
-0:0:0:0:0:0:0:1 - - [08/Jan/2019:22:34:25 +0800] "GET /MavenWebPrj/jsp/one/index.jsp HTTP/1.1" 200 9543 http-bio-8888-exec-1 812
-0:0:0:0:0:0:0:1 - - [08/Jan/2019:22:34:25 +0800] "GET /MavenWebPrj/css/navbar.css HTTP/1.1" 304 - http-bio-8888-exec-7 7
-0:0:0:0:0:0:0:1 - - [08/Jan/2019:22:34:26 +0800] "GET /MavenWebPrj/jsp/one/login.jsp HTTP/1.1" 200 10776 http-bio-8888-exec-8 113
-0:0:0:0:0:0:0:1 - - [08/Jan/2019:22:34:28 +0800] "GET /MavenWebPrj/jsp/one/yysj.jsp HTTP/1.1" 200 11745 http-bio-8888-exec-10 85
-0:0:0:0:0:0:0:1 - - [08/Jan/2019:22:34:30 +0800] "GET /MavenWebPrj/jsp/one/orange.jsp HTTP/1.1" 200 10712 http-bio-8888-exec-10 78
-0:0:0:0:0:0:0:1 - - [08/Jan/2019:22:34:31 +0800] "GET /MavenWebPrj/jsp/one/index.jsp HTTP/1.1" 200 9543 http-bio-8888-exec-10 3
-0:0:0:0:0:0:0:1 - - [08/Jan/2019:22:34:33 +0800] "GET /MavenWebPrj/jsp/one/login.jsp HTTP/1.1" 200 10776 http-bio-8888-exec-9 2
