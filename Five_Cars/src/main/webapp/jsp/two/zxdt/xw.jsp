@@ -14,111 +14,99 @@
     <title>资讯</title>
     <!--引入bootstrap.min.css文件-->
     <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="${path}/css/navbar.css"/>
     <link rel="stylesheet" type="text/css" href="${path}/css/two/two.css"/>
-    <style type="text/css">b
+    <link rel="stylesheet" type="text/css" href="${path}/css/navbar.css"/>
+    <style>
+        /* Custom Styles */
+        ul.nav-tabs{
+            width: 140px;
+            margin-top: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        }
+        ul.nav-tabs li{
+            margin: 0;
+            border-top: 1px solid #ddd;
+        }
+        ul.nav-tabs li:first-child{
+            border-top: none;
+        }
+        ul.nav-tabs li a{
+            margin: 0;
+            padding: 8px 16px;
+            border-radius: 0;
+        }
+        ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+            color: #fff;
+            background: #0088cc;
+            border: 1px solid #0088cc;
+        }
+        ul.nav-tabs li:first-child a{
+            border-radius: 4px 4px 0 0;
+        }
+        ul.nav-tabs li:last-child a{
+            border-radius: 0 0 4px 4px;
+        }
+        ul.nav-tabs.affix{
+            top: 30px; /* Set the top position of pinned element */
+        }
+    </style>
 
-    .information-bg {
-        background: #fff url(http://www.dorcen.com/bocweb/web/css/../img/information-bg.jpg) repeat;
-    }
 
-    .w1200 {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 100px;
-    }
-
-    .wrap1 .tit {
-        font-size: 34px;
-    }
-
-    .wrap1 .tit {
-        color: #000000;
-        font-weight: bold;
-        text-align: center;
-        line-height: 1.5;
-    }
-
-    .wrap1 .time {
-        text-align: center;
-        margin-top: 14px;
-        font-size: 16px;
-        color: #000000;
-        line-height: 1;
-    }
-
-    .wrap1 .con {
-        font-size: 14px;
-        color: #666666;
-        padding: 30px 40px;
-        background-color: #fff;
-        line-height: 1.857;
-        margin-top: 36px;
-    }
-
-    element.style {
-        margin: 0px;
-        padding: 0px;
-        max-width: 100%;
-        box-sizing: border-box;
-        word-wrap: break-word !important;
-        color: rgb(51, 51, 51);
-        font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif;
-        font-size: 17px;
-        font-style: normal;
-        font-variant: normal;
-        font-weight: normal;
-        letter-spacing: 0.544000029563904px;
-        line-height: 27.2000007629395px;
-        text-align: justify;
-        text-indent: 0px;
-        text-transform: none;
-        white-space: normal;
-        widows: 1;
-        word-spacing: 0px;
-        -webkit-text-stroke-width: 0px;
-        background-color: rgb(255, 255, 255);
-    }#dtl {
-         background-color: #f5f5f5;
-     }.fa {
-          display: inline-block;
-          font: normal normal normal 14px/1 FontAwesome;
-          font-size: inherit;
-          text-rendering: auto;
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale;
-      }#scrollUp {
-           background-color: #777;
-           color: #eee;
-           font-size: 40px;
-           line-height: 1;
-           text-align: center;
-           text-decoration: none;
-           bottom: 20px;
-           right: 20px;
-           overflow: hidden;
-           width: 46px;
-           height: 46px;
-           border: none;
-           opacity: .8;
-       }</style>
 </head>
-<body style="font-size: 0px;" id="dtl">
-
-<div class="wrap1 information-bg">
-    <div class="w1200">
-        <div class="tit">年底压轴！大乘汽车战略车型G60S正式下线</div>
-        <div class="time">2019-01-02</div><div class="pagin f-cb">
-        <a class="return" href="xwdt.jsp">返回列表</a>
-    </div>
-        <div class="con">
-            <section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; letter-spacing: 2px;">2018年12月29日，江西大乘汽车科技产业园项目正式竣工，首批大乘汽车G60S在众多领导嘉宾以及100多家行业媒体的见证下，正式投产下线。凭借靓丽的外观和越级科技配置，大乘G60S甫一出场即引发强烈关注。</span></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; letter-spacing: 2px;"></span><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; text-align: center;"><img src="http://www.dorcen.com/upload/at/image/20190102/1546401147659868YfiI.jpg" title="1546401147659868YfiI.jpg" alt="微信图片_20190102114955.jpg"></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 10px 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; text-align: center;"><section style="margin: 0px; padding: 5px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; display: inline-block; border-radius: 16px; vertical-align: top; line-height: 1; background-color: rgb(255, 129, 36);"><section style="margin: 0px; padding: 0px 6px 0px 8px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); height: 18px; line-height: 18px; font-size: 15px;"><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em;"><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">贯穿式大屏吸睛 科技范儿十足</strong></p></section><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; width: 18px; height: 18px; border: 4px solid rgb(255, 255, 255); border-radius: 50%; display: inline-block; vertical-align: top; background-color: rgb(254, 129, 36);"></section></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">此次下线的G60S定位于紧凑型SUV，是大乘汽车基于全面的市场调研分析，根据最新的汽车发展潮流，面向移动智能时代的年轻消费者推出的战略产品。G60S的外观设计运用了前卫科技的星际概念，搭载了豪华品牌上才得以见到的贯穿式大屏和一系列前沿的智能科技配置，相信上市后将成为代表紧凑型SUV前沿科技的车型。</span></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;"><br></span></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; text-align: center;"><img src="http://www.dorcen.com/upload/at/image/20190102/1546401175724093jU6Q.jpg" title="1546401175724093jU6Q.jpg" alt="微信图片_20190102114959.jpg"></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">大乘汽车G60S外观整体大气简洁，线条硬朗，前脸采用较为夸张的进气格栅，使新车车头更具辨识度，未来感十足。侧面腰线采取了由前大灯延伸至后尾灯组的贯穿式设计，更添时尚动感。最引人瞩目的仪表台和中控台采用了贯穿式设计，搭配多色氛围灯，使得车内科技感十足，更加炫酷。</span></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;"><br></span></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; text-align: center;"><img src="http://www.dorcen.com/upload/at/image/20190102/15464011909195085dkO.jpg" title="15464011909195085dkO.jpg" alt="微信图片_20190102115002.jpg"></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">除了远程控制、手机无线充电等一系列智能科技配置，G60S将搭载大乘汽车自主联合研发的新一代的智能互联系统，具有更强的语言识别度和更丰富的信息娱乐功能。</span></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 10px 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; text-align: center;"><section style="margin: 0px; padding: 5px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; display: inline-block; border-radius: 16px; vertical-align: top; line-height: 1; background-color: rgb(255, 129, 36);"><section style="margin: 0px; padding: 0px 6px 0px 8px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); height: 18px; line-height: 18px; font-size: 15px;"><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em;"><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">智能制造新标准 四大工艺领先</strong></p></section><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; width: 18px; height: 18px; border: 4px solid rgb(255, 255, 255); border-radius: 50%; display: inline-block; vertical-align: top; background-color: rgb(254, 129, 36);"></section></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.5em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">同期竣工的江西大乘汽车科技产业园，是大乘汽车对标国际工业4.0先进标准，融入信息化、智能化、自动化等众多先进技术，集研发、生产、销售为一体的复合型、高科技产业园区。对提升抚州乃至江西汽车制造水平、关键零部件生产研发能力以及升级生产工艺、质量，实现产业升级都具有重要作用。</span></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.5em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;"><br></span></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; text-align: center;"><img src="http://www.dorcen.com/upload/at/image/20190102/1546401211971633X9lD.jpg" title="1546401211971633X9lD.jpg" alt="微信图片_20190102115006.jpg"></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.5em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">产业园的冲压、车身、涂装和总装四大工厂，采用业内领先的ABB自动化集成系统、智能物联网系统、射频技术等国际先进的自动化制造装备，实现高度自动化、柔性化、智能化生产。</span></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.5em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;"><br></span></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; text-align: center;"><img src="http://www.dorcen.com/upload/at/image/20190102/15464012327690963rGY.jpg" title="15464012327690963rGY.jpg" alt="微信图片_20190102115014.jpg"></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">作为该产业园的首款量产乘用车，大乘汽车G60S的涂装工艺采用国际领先的射频技术、高泳透力电泳等多种先进工艺，100%采用机器人自动喷涂。为保证车身的刚性要求，焊装车间采用先进的焊装工艺，生产线全部采用KUKA智能机器人，整线自动化率接近95%。同时，装配车间采用业内领先智能物联网系统，建立了一整套双向质量追溯体系，极大地提高量产车型的质量可控性和可靠性。</span></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 10px 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; text-align: center;"><section style="margin: 0px; padding: 5px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; display: inline-block; border-radius: 16px; vertical-align: top; line-height: 1; background-color: rgb(255, 129, 36);"><section style="margin: 0px; padding: 0px 6px 0px 8px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); height: 18px; line-height: 18px; font-size: 15px;"><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em;"><strong style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;">严苛检测高标准 卓越至臻品质</strong></p></section><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; width: 18px; height: 18px; border: 4px solid rgb(255, 255, 255); border-radius: 50%; display: inline-block; vertical-align: top; background-color: rgb(254, 129, 36);"></section></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">得益于大乘汽车在制造中的严苛检验标准，大乘汽车G60S目前已顺利完成了包括高温测试、高寒测试以及高原环境适应性试验，共计完成20大类高原标定测试，百余项整车合格，路试总里程累计长达180万公里。</span></p><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;"><br></span></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; text-align: center;"><img src="http://www.dorcen.com/upload/at/image/20190102/1546401250704762vh2b.jpg" title="1546401250704762vh2b.jpg" alt="微信图片_20190102115025.jpg"></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">即便在缺氧的高海拔地区，大乘汽车G60S的发动机也能适应气压和氧气浓度变化，保持涡轮转速正常稳定，维持高扭矩输出，其操控可靠性、工况适应性、零部件耐久性和发动机稳定性，在多种极限环境下均得到了有效验证。</span></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; text-align: center;"><img src="http://www.dorcen.com/upload/at/image/20190102/1546401273206893Wh3V.jpg" title="1546401273206893Wh3V.jpg" alt="微信图片_20190102115028.jpg"></p><p style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; overflow-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal;"><br></p></section></section></section><section class="" style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; color: rgb(51, 51, 51); font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; font-size: 17px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: 0.544000029563904px; line-height: 27.2000007629395px; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important;"><section style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; font-size: 15px; letter-spacing: 2px; line-height: 1.6;"><p style="margin: 0px 0px 5px; padding: 0px; max-width: 100%; box-sizing: border-box; word-wrap: break-word !important; clear: both; min-height: 1em; white-space: normal; line-height: 1.75em;"><span style="margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important; letter-spacing: 2px;">提供优质的产品和服务是持续提升大乘汽车市场影响力的关键。作为大乘汽车2019年重量级的战略产品，本次在大乘汽车江西科技产业园正式下线的大乘汽车G60S凭借高颜值的外观和卓越的品质获得现场一致好评和强烈关注。据悉，G60S或将于明年第一季度上市，该款车型能否进一步挖掘市场潜力，成为2019年的销量黑马？让我们拭目以待！</span></p></section></section></section><p><br></p>            </div>
-        <div class="pagin f-cb">
+<body data-spy="scroll" data-target="#myScrollspy">
+<!--响应式导航-->
+<%@include file="../../common/nar.jsp"%>
+<!--响应式导航结束-->
+<div class="container">
+    <div class="jumbotron" style="text-align: center">
+        <h2>年底压轴！大乘汽车战略车型G60S正式下线</h2>
+        <h5>2019-01-02</h5>
+        <p>
             <a class="return" href="xwdt.jsp">返回列表</a>
+        </p>
+    </div>
+    <div class="row" style="background-color: #eee">
+        <div class="col-xs-3" id="myScrollspy">
+            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                <li ><a href="#section-1">科技范儿十足</a></li>
+                <li><a href="#section-2">四大工艺领先</a></li>
+                <li><a href="#section-3">卓越至臻品质</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-9">
+            <h2 id="section-1" style="text-align: center">贯穿式大屏吸睛 科技范儿十足</h2>
+            <p>    2018年12月29日，江西大乘汽车科技产业园项目正式竣工，首批大乘汽车G60S在众多领导嘉宾以及100多家行业媒体的见证下，正式投产下线。凭借靓丽的外观和越级科技配置，大乘G60S甫一出场即引发强烈关注。</p>
+            <img class="img" src="${path}/img/two/41.jpg"/>
+            <p>    此次下线的G60S定位于紧凑型SUV，是大乘汽车基于全面的市场调研分析，根据最新的汽车发展潮流，面向移动智能时代的年轻消费者推出的战略产品。G60S的外观设计运用了前卫科技的星际概念，搭载了豪华品牌上才得以见到的贯穿式大屏和一系列前沿的智能科技配置，相信上市后将成为代表紧凑型SUV前沿科技的车型。</p>
+            <img class="img" src="${path}/img/two/42.jpg"/>
+            <p>    大乘汽车G60S外观整体大气简洁，线条硬朗，前脸采用较为夸张的进气格栅，使新车车头更具辨识度，未来感十足。侧面腰线采取了由前大灯延伸至后尾灯组的贯穿式设计，更添时尚动感。最引人瞩目的仪表台和中控台采用了贯穿式设计，搭配多色氛围灯，使得车内科技感十足，更加炫酷。</p>
+            <img class="img" src="${path}/img/two/43.jpg"/>
+            <p>    除了远程控制、手机无线充电等一系列智能科技配置，G60S将搭载大乘汽车自主联合研发的新一代的智能互联系统，具有更强的语言识别度和更丰富的信息娱乐功能。</p>
+
+            <hr>
+            <h2 id="section-2" style="text-align: center">智能制造新标准 四大工艺领先</h2>
+            <p>    同期竣工的江西大乘汽车科技产业园，是大乘汽车对标国际工业4.0先进标准，融入信息化、智能化、自动化等众多先进技术，集研发、生产、销售为一体的复合型、高科技产业园区。对提升抚州乃至江西汽车制造水平、关键零部件生产研发能力以及升级生产工艺、质量，实现产业升级都具有重要作用。</p>
+            <img class="img" src="${path}/img/two/44.jpg"/>
+            <p>    产业园的冲压、车身、涂装和总装四大工厂，采用业内领先的ABB自动化集成系统、智能物联网系统、射频技术等国际先进的自动化制造装备，实现高度自动化、柔性化、智能化生产。</p>
+            <img class="img" src="${path}/img/two/45.jpg"/>
+            <p>    作为该产业园的首款量产乘用车，大乘汽车G60S的涂装工艺采用国际领先的射频技术、高泳透力电泳等多种先进工艺，100%采用机器人自动喷涂。为保证车身的刚性要求，焊装车间采用先进的焊装工艺，生产线全部采用KUKA智能机器人，整线自动化率接近95%。同时，装配车间采用业内领先智能物联网系统，建立了一整套双向质量追溯体系，极大地提高量产车型的质量可控性和可靠性。</p>
+
+            <hr>
+            <h2 id="section-3" style="text-align: center">严苛检测高标准 卓越至臻品质</h2>
+            <p>    得益于大乘汽车在制造中的严苛检验标准，大乘汽车G60S目前已顺利完成了包括高温测试、高寒测试以及高原环境适应性试验，共计完成20大类高原标定测试，百余项整车合格，路试总里程累计长达180万公里。</p>
+            <img class="img" src="${path}/img/two/46.jpg"/>
+            <p>    即便在缺氧的高海拔地区，大乘汽车G60S的发动机也能适应气压和氧气浓度变化，保持涡轮转速正常稳定，维持高扭矩输出，其操控可靠性、工况适应性、零部件耐久性和发动机稳定性，在多种极限环境下均得到了有效验证。</p>
+            <img class="img" src="${path}/img/two/47.jpg"/>
+            <p>    提供优质的产品和服务是持续提升大乘汽车市场影响力的关键。作为大乘汽车2019年重量级的战略产品，本次在大乘汽车江西科技产业园正式下线的大乘汽车G60S凭借高颜值的外观和卓越的品质获得现场一致好评和强烈关注。据悉，G60S或将于明年第一季度上市，该款车型能否进一步挖掘市场潜力，成为2019年的销量黑马？让我们拭目以待！</p>
+            <hr>
+            <p>
+                <a class="return" href="xwdt.jsp">返回列表</a>
+            </p>
         </div>
     </div>
 </div>
-<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up"></i></a>
 
 <!--引入jquery文件-->
 <script src="${path}/plugins/jquery/jquery.min.js" type="text/javascript"></script>
