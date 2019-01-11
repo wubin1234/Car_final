@@ -23,7 +23,7 @@
 <!--响应式导航结束-->
 <div class="carousel-fluid" style="color: inherit; background-color: #eee;">
     <div class="row">
-        <img src="${path}/img/two/1.PNG" class="img-responsive" alt="Responsive image">
+        <img src="${path}/img/two/1.PNG" class="img-responsive" alt="Responsive image" style="width: 100%;height: auto;">
 
     </div>
     <div class="jumbotron" style="text-align: center;">
