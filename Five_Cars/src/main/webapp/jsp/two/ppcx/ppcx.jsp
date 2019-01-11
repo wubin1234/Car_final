@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="${path}/css/navbar.css"/>
     <link rel="stylesheet" type="text/css" href="${path}/css/two/two.css"/>
     <style type="text/css">
-        #model .model-ban {
+        #model >model-ban {
             position: relative;
             height: 633px;
             background: no-repeat center/cover;
@@ -67,8 +67,8 @@
 <%@include file="../../common/nar.jsp"%>
 <!--响应式导航结束-->
 
-<div class="row" style="margin-left: 75px;">
-    <img src="${path}/img/two/30.PNG" class="img-responsive" alt="Responsive image"/>
+<div class="row">
+    <img src="${path}/img/two/30.PNG" class="img-responsive" alt="Responsive image">
 </div>
 <div class="container">
     <div class="jumbotron" style="    background-color:#000000;">
@@ -93,10 +93,14 @@
         </div>
     </div>
 </div>
-<!--引入jquery文件-->
+<!--
+    引入jquery文件
+-->
 <script src="${path}/plugins/jquery/jquery.min.js" type="text/javascript"></script>
-<!--引入bootstrap.js-->
-<script type="text/javascript" src="${path}/plugins/bootstrap/js/bootstrap.min.js" ></script>
+<!--
+    引入bootstrap.js
+-->
+<script type="text/javascript" src="${path}/plugins/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 
