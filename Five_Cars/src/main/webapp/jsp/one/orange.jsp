@@ -15,10 +15,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <!--引入bootstrap.min.css文件-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.min.css" />
     <!--引入自定义css文件-->
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/one/index.css" />
+    <link rel="stylesheet" href="${path}/css/navbar.css" />
+    <link rel="stylesheet" href="${path}/css/one/index.css" />
     <style type="text/css">
         .two{
             position: relative;
@@ -48,7 +48,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="">
-            <img src="../../img/one/orange_first.jpg" style="max-width: 100%;"/>
+            <img src="${path}/img/one/orange_first.jpg" style="max-width: 100%;"/>
         </div>
     </div>
 </div>
@@ -65,7 +65,7 @@
 						</span>
             </div>
             <div class="right">
-                <img src="../../img/one/orange_two.jpg"/>
+                <img src="${path}/img/one/orange_two.jpg"/>
             </div>
         </div>
     </div>
@@ -74,7 +74,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="" style="position: relative;top: 160px;">
-            <img src="../../img/one/orange_three.jpg" style="max-width: 100%;"/>
+            <img src="${path}/img/one/orange_three.jpg" style="max-width: 100%;"/>
         </div>
     </div>
 </div>
@@ -133,11 +133,11 @@
 <!--
     引入jquery文件
 -->
-<script src="../../plugins/jquery/jquery.min.js" type="text/javascript"></script>
+<script src="${path}/plugins/jquery/jquery.min.js" type="text/javascript"></script>
 <!--
     引入bootstrap.js
 -->
-<script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="${path}/plugins/bootstrap/js/bootstrap.js"></script>
 
 </html>
 

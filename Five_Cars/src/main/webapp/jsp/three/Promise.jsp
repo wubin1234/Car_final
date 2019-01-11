@@ -17,11 +17,11 @@
     <!--引入bootstrap.min.css文件-->
     <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.min.css" />
     <!--引入自定义css文件-->
-    <link rel="stylesheet" type="text/css" href="${path}/css/navbar.css"/>
+    <link rel="stylesheet" href="${path}/css/one/index.css" />
 </head>
 
 <body>
-<!--响应式导航-->
+!--响应式导航-->
 <%@include file="../common/nar.jsp"%>
 <!--响应式导航结束-->
 <!--缩略图开始-->
@@ -29,7 +29,7 @@
 
     <div class="col-sm-12 col-md-12">
         <a href="#" class="thumbnail">
-            <img src="${path}/img/Three/P1.png"
+            <img src="${path}/img/Three/P1.jpg"
                  alt="通用的占位符缩略图">
         </a>
     </div>

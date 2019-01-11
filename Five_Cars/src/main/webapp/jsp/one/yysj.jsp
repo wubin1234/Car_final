@@ -15,10 +15,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <!--引入bootstrap.min.css文件-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.min.css" />
     <!--引入自定义css文件-->
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/one/index.css" />
+    <link rel="stylesheet" href="${path}/css/navbar.css" />
+    <link rel="stylesheet" href="${path}/css/one/index.css" />
     <style type="text/css">
         .background {
             position: absolute;
@@ -127,7 +127,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="background">
-                        <img src="../../img/one/yysj_first.jpg" />
+                        <img src="${path}/img/one/yysj_first.jpg" />
                     </div>
                 </div>
             </div>
@@ -142,10 +142,10 @@
 <!--
     引入jquery文件
 -->
-<script src="../../plugins/jquery/jquery.min.js" type="text/javascript"></script>
+<script src="${path}/plugins/jquery/jquery.min.js" type="text/javascript"></script>
 <!--
     引入bootstrap.js
 -->
-<script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="${path}/plugins/bootstrap/js/bootstrap.js"></script>
 
 </html>

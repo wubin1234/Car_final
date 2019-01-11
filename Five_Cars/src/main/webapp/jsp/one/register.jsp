@@ -15,13 +15,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <!--引入bootstrap.min.css文件-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.css" />
     <!--引入自定义css文件-->
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/one/index.css" />
+    <link rel="stylesheet" href="${path}/css/navbar.css" />
+    <link rel="stylesheet" href="${path}/css/one/index.css" />
     <style type="text/css">
         body{
-            background: url(../../img/one/login_background.jpg) no-repeat;
+            background: url(${path}/img/one/login_background.jpg) no-repeat;
             height: 100%;
             width: 100%;
             background-size:100% 140% ;
@@ -65,34 +65,34 @@
 <div class="container-fluid">
     <div class="row">
         <div id="login">
-            <form class="form-horizontal" role="form">
+            <form class="form-horizontal" role="form" action="${path}/register" method="post">
                 <fieldset>
                     <legend><h3 id="login_text">用户登录入口</h3></legend>
                     <div class="form-group has-feedback">
                         <label for="firstname" class="col-sm-2 control-label">用户名</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="firstname" placeholder="请输入名字">
+                            <input type="text" class="form-control" id="firstname" name="username" placeholder="请输入名字">
                             <span class="glyphicon glyphicon-user form-control-feedback"></span>
                         </div>
                     </div>
                     <div class="form-group has-feedback">
-                        <label for="lastname" class="col-sm-2 control-label">密码</label>
+                        <label for="firstpassword" class="col-sm-2 control-label">密码</label>
                         <div class="col-md-5">
-                            <input type="password" class="form-control" id="lastname" placeholder="请输入姓">
+                            <input type="password" class="form-control" id="firstpassword" name="password" placeholder="请输入密码">
                             <span class="glyphicon glyphicon-lock form-control-feedback"></span>
                         </div>
                     </div>
                     <div class="form-group has-feedback">
-                        <label for="lastname" class="col-sm-2 control-label">手机</label>
+                        <label for="firstphone" class="col-sm-2 control-label">手机</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="lastname" placeholder="请输入手机号">
+                            <input type="text" class="form-control" id="firstphone" name="phone" placeholder="请输入手机号">
                             <span class="glyphicon glyphicon-phone form-control-feedback"></span>
                         </div>
                     </div>
                     <div class="form-group has-feedback">
-                        <label for="lastname" class="col-sm-2 control-label">住址</label>
+                        <label for="firstaddress" class="col-sm-2 control-label">住址</label>
                         <div class="col-md-5">
-                            <input type="text" class="form-control" id="lastname" placeholder="请输入住址">
+                            <input type="text" class="form-control" id="firstaddress" name="address" placeholder="请输入住址">
                             <span class="glyphicon glyphicon-home form-control-feedback"></span>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group" style="float: left;margin-left: 95px;">
+                    <div  action class="form-group" style="float: left;margin-left: 95px;">
                         <div class="col-sm-offset-2 col-sm-10">
                             <button type="submit" class="btn btn-default">立即注册</button>
                         </div>
@@ -118,9 +118,9 @@
 <!--登录结束-->
 
 <!--引入jquery文件-->
-<script src="../../plugins/jquery/jquery.min.js" type="text/javascript"></script>
+<script src="${path}/plugins/jquery/jquery.min.js" type="text/javascript"></script>
 <!--引入bootstrap.js-->
-<script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="${path}/plugins/bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>

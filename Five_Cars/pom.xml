@@ -80,7 +80,7 @@
             <port>8888</port>
             <uriEncoding>utf-8</uriEncoding>
             <url>http://localhost:8888/manager/text</url>
-            <path>/MavenWebPrj</path>
+            <path>/Five_Cars</path>
           </configuration>
         </plugin>
       </plugins>

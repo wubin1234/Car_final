@@ -20,7 +20,8 @@ public class TestUserDao {
         User user = new User();
         user.setUsername("adminw");
         user.setPassword("tomw");
-        user.setPower(1);
+        user.setPhone("123456789101");
+        user.setAddress("南京市江宁区");
 
         //调用接口中的保存方法
         userDao.save(user);

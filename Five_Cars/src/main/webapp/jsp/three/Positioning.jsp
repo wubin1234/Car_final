@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+html>
 
 <html>
 
@@ -18,11 +18,11 @@
     <!--引入bootstrap.min.css文件-->
     <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.min.css" />
     <!--引入自定义css文件-->
-    <link rel="stylesheet" type="text/css" href="${path}/css/navbar.css"/>
+    <link rel="stylesheet" href="${path}/css/one/index.css" />
 </head>
 
 <body>
-<!--响应式导航-->
+!--响应式导航-->
 <%@include file="../common/nar.jsp"%>
 <!--响应式导航结束-->
 
@@ -32,7 +32,7 @@
 
     <div class="col-sm-12 col-md-12">
         <a href="#" class="thumbnail">
-            <img src="${path}/img/Three/PI1.png"
+            <img src="${path}/img/Three/PI1.jpg"
                  alt="通用的占位符缩略图">
         </a>
     </div>
@@ -72,31 +72,33 @@
     </div>
     <div class="row">
 
+
+        <div class="col-sm-12 col-md-4">
+            <a href="#" class="thumbnail">
+                <img srC="${path}/img/Three/PI7.jpg"
+                     alt="通用的占位符缩略图">
+            </a>
+        </div>
+
         <div class="col-sm-12 col-md-8">
             <div class="thumbnail"  >
                 <img src="${path}/img/Three/PI8.jpg"
                      alt="通用的占位符缩略图">
                 <div class="caption">
-                    <h3 style="font-size: 50px;text-align: center">品牌核心消费人群</h3>
-                    <p style="text-align: left ;font-size: 22px "> 大乘品牌聚焦年轻人和年轻家庭他们平时关注科技喜欢尝试新事物，他们努力工作同时也不忘享受生活，他们活力亲和的但也追求自己独立的个性</p>
+                    <h3 style="font-size: 50px;">品牌核心消费人群</h3>
+                    <p style="font-size: 20px;"> 大乘品牌聚焦年轻人和年轻家庭他们平时关注科技喜欢尝试新事物，他们努力工作同时也不忘享受生活，他们活力亲和的但也追求自己独立的个性</p>
                 </div>
             </div>
         </div>
-
-        <div class="col-sm-12 col-md-4">
-            <a href="#" class="thumbnail">
-                <img srC="${path}/img/Three/PI7.png"
-                     alt="通用的占位符缩略图">
-            </a>
-        </div>
-
-
     </div>
-    <div class="col-sm-12 col-md-12"style="width: 100%">
+    <div class="col-sm-12 col-md-12">
         <div class="thumbnail"  >
-            <img src="${path}/img/Three/PI3.png"
+            <img src="${path}/img/Three/PI3.jpg"
                  alt="通用的占位符缩略图">
-
+            <div class="caption">
+                <h3 style="font-size: 50px;text-align: center;">大乘品牌价值主张</h3>
+                <p style="font-size: 20px;text-align: center;">怀进取之心，与年轻同行</p>
+            </div>
         </div>
     </div>
 

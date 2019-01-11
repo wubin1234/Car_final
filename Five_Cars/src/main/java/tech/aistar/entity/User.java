@@ -1,16 +1,13 @@
 package tech.aistar.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 
 /**
  * 用户实体类
  */
 //自动映射的表的名称
-@Table(name="tbl_user")
+@Table(name="t_user")
 //标识它是一个实体类
 @Entity
 public class User implements Serializable{
@@ -23,8 +20,12 @@ public class User implements Serializable{
     //密码
     private String password;
 
-    //标识
-    private int power;//0 代表超级管理员  1代表普通人员
+    //电话
+    private String phone;
+
+    //住址
+    private String address;
+
 
     //提供空参构造
     public User(){
@@ -34,10 +35,11 @@ public class User implements Serializable{
     //快速生成带参构造以及getter/setter  toString
     //使用快捷键alt + insert
     //id属性是不需要提供的
-    public User(String username, String password, int power) {
+    public User(String username, String password, String phone, String address) {
         this.username = username;
         this.password = password;
-        this.power = power;
+        this.phone = phone;
+        this.address = address;
     }
 
     //配置主键的生成策略
@@ -68,12 +70,22 @@ public class User implements Serializable{
         this.password = password;
     }
 
-    public int getPower() {
-        return power;
+    @Column
+    public String getPhone() {
+        return phone;
     }
 
-    public void setPower(int power) {
-        this.power = power;
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    @Column
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     @Override
@@ -82,7 +94,8 @@ public class User implements Serializable{
         sb.append("id=").append(id);
         sb.append(", username='").append(username).append('\'');
         sb.append(", password='").append(password).append('\'');
-        sb.append(", power=").append(power);
+        sb.append(", phone='").append(phone).append('\'');
+        sb.append(", address='").append(address);
         sb.append('}');
         return sb.toString();
     }

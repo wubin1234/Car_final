@@ -15,13 +15,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
     <!--引入bootstrap.min.css文件-->
-    <link rel="stylesheet" type="text/css" href="../../plugins/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.css" />
     <!--引入自定义css文件-->
-    <link rel="stylesheet" href="../../css/navbar.css" />
-    <link rel="stylesheet" href="../../css/one/index.css" />
+    <link rel="stylesheet" href="${path}css/navbar.css" />
+    <link rel="stylesheet" href="${path}/css/one/index.css" />
     <style type="text/css">
         body{
-            background: url(../../img/one/login_background.jpg) no-repeat;
+            background: url(${path}/img/one/login_background.jpg) no-repeat;
             height: 100%;
             width: 100%;
             background-size:100% 170% ;
@@ -108,9 +108,9 @@
 <!--登录结束-->
 
 <!--引入jquery文件-->
-<script src="../../plugins/jquery/jquery.min.js" type="text/javascript"></script>
+<script src="${path}/plugins/jquery/jquery.min.js" type="text/javascript"></script>
 <!--引入bootstrap.js-->
-<script type="text/javascript" src="../../plugins/bootstrap/js/bootstrap.js"></script>
+<script type="text/javascript" src="${path}/plugins/bootstrap/js/bootstrap.js"></script>
 </body>
 
 </html>
