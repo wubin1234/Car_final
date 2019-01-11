@@ -16,7 +16,7 @@
     <!--引入bootstrap.min.css文件-->
     <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.min.css" />
     <!--引入自定义css文件-->
-    <link rel="stylesheet" href="${path}/css/one/index.css" />
+    <link rel="stylesheet" type="text/css" href="${path}/css/navbar.css"/>
     <style >
         #outer_OV{
 
@@ -36,14 +36,10 @@
             left: 40%;
             top:30%;
         }
-        #outer1{
-            width: 100%;
-            height: 150px;
-            background-color: white;
-        }
+
 
         .exp1{font-size: 50px;font-weight: bold;}
-        .exp2{height: 72px;width: 417px;}
+        .exp2{height: 72px;width:100%;text-align: center}
 
 
     </style>
@@ -65,8 +61,8 @@
             <div id="inner_OV" >
                 <p >大乘概述 <br>Dorcen Overview</p>
             </div>
-            <div class="caption" style="text-align: center";>
-                <h3>企业理念</h3>
+            <div class="caption";>
+                <h3 >企业理念</h3>
                 <p>我们的使命造懂年轻人的车，成为中国年轻人的专属品牌。</p>
 
             </div>
@@ -78,6 +74,16 @@
                  alt="通用的占位符缩略图">
             <div class="caption">
                 <h3 class="exp1" style="text-align: center;">创建历史</h3>
+                <div class="container">
+
+                        <div class="media-body">
+
+                                <p class="exp2">10年思索<br>创始人吴潇本着以客户体验为核心的造车理念，结合扎实的造车工匠底蕴，应用新一代车载智能互联技术，准备为年轻一代造出品质更高的车。</p>
+                                <p class="exp2">3年准备<br>大乘汽车自2015年组建开始，三年内完成团队组建、市场调研、车联网技术和车型开发等核心工作</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -85,29 +91,7 @@
 </div>
 
 
-<div id="outer1" class="container">
-    <div class="media">
-        <div class="media-left">
-            <img src="${path}/img/Three/OV3.jpg" class="media-object" style="width:232px;height: 142px;">
-        </div>
-        <div class="media-body">
-            <h4 style="font-size: 50px; color: crimson;" >10年思索<h4>
-                <p class="exp2">创始人吴潇本着以客户体验为核心的造车理念，结合扎实的造车工匠底蕴，应用新一代车载智能互联技术，准备为年轻一代造出品质更高的车。</p>
-        </div>
-    </div>
 
-    <div  id="outer1" class="container">
-        <div class="media">
-            <div class="media-left">
-                <img src="${path}/img/Three/OV4.jpg" class="media-object" style="width:232px;height: 142px;">
-            </div>
-            <div class="media-body">
-                <h4 style="font-size: 50px; color: crimson;" >3年准备</h4>
-                <p class="exp2">大乘汽车自2015年组建开始，三年内完成团队组建、市场调研、车联网技术和车型开发等核心工作</p>
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
@@ -147,13 +131,13 @@
     </div>
     <div class="col-sm-12 col-md-12">
         <a href="#" class="thumbnail">
-            <img src="${path}/img/Three/OV9.jpg"
+            <img src="${path}/img/Three/OV9.png"
                  alt="通用的占位符缩略图">
         </a>
     </div>
     <div class="col-sm-12 col-md-12">
         <a href="#" class="thumbnail">
-            <img src="${path}/img/Three/OV10.jpg"
+            <img src="${path}/img/Three/OV10.png"
                  alt="通用的占位符缩略图">
         </a>
     </div>
