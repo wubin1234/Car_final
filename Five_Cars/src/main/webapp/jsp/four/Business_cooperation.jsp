@@ -31,7 +31,7 @@
 						<div class="col-md-6 col-xs-12">
 							<li class="list-group-item" style="padding: 35px 15px;border: 2px solid #DDDDDD;">
 
-								<div class="text-center" style="font-size: 25px ;font-weight: bold;">
+								<div class="text" style="font-size: 25px ;font-weight: bold;">
 									<font color="orange">01</font>
 									.认同大乘汽车的
 									<font color="orange">经营理念</font>!
@@ -42,7 +42,7 @@
 						<div class="col-md-6 col-xs-12">
 							<li class="list-group-item" style="padding: 35px 15px;border: 2px solid #DDDDDD;">
 
-								<div class="text-center" style="font-size: 25px ;font-weight: bold;">
+								<div class="text" style="font-size: 25px ;font-weight: bold;">
 									<font color="orange">02</font>
 									.具有完善的经营，推广思路!
 
@@ -51,7 +51,7 @@
 						</div>
 						<div class="col-md-6 col-xs-12">
 							<li class="list-group-item" style="padding: 35px 15px;border: 2px solid #DDDDDD;">
-								<div class="text-center" style="font-size: 25px ;font-weight: bold;">
+								<div class="text" style="font-size: 25px ;font-weight: bold;">
 									<font color="orange">03</font>
 									.具备充足的
 									<font color="orange">流动资金</font>，且具备充良好的
@@ -63,7 +63,7 @@
 						<div class="col-md-6 col-xs-12">
 							<li class="list-group-item" style="padding: 35px 15px;border: 2px solid #DDDDDD;">
 
-								<div class="text-center" style="font-size: 25px ;font-weight: bold;">
+								<div class="text" style="font-size: 25px ;font-weight: bold;">
 									<font color="orange">04</font>
 									.在汽车核心商圈已有符合对应城市级别的
 									<font color="orange">标准店面</font>!
@@ -74,7 +74,7 @@
 						<div class="col-md-6 col-xs-12">
 							<li class="list-group-item" style="padding: 35px 15px;border: 2px solid #DDDDDD;">
 
-								<div class="text-center" style="font-size: 25px ;font-weight: bold;">
+								<div class="text" style="font-size: 25px ;font-weight: bold;">
 									<font color="orange">05</font>
 									.完善的组织架构及人员配置！
 
@@ -89,6 +89,7 @@
 		<!--招募资质结束-->
 		<!--建店标准开始-->
 		<div class="container-fluid">
+
 			<div class="row">
 				<div id="secondtname" style="background-color: #D5D5D5;">
 					<div class="text-center" style="font-size: 40px;font-weight: bold;line-height: 100px;">
@@ -109,7 +110,7 @@
 						
 							<li class="list-group-item" style="padding: 35px 15px;border: 2px solid #DDDDDD;">
                                
-								<div class="text-center" style="font-size: 25px ;">
+								<div class="text" style="font-size: 25px ;">
 									<font color="orange">01</font>
 									.按要求填写大乘汽车加盟申请书，提供相应资料；
 									<p><a href="http://www.dorcen.com/bocweb//web/img/word1.doc?v=v111">大乘合作意向协议（下载）</a></p>
@@ -122,7 +123,7 @@
 						
 							<li class="list-group-item" style="padding: 35px 15px;border: 2px solid #DDDDDD;">
 
-								<div class="text-center" style="font-size: 25px ;">
+								<div class="text" style="font-size: 25px ;">
 									<font color="orange">02</font>
 									.请将加盟申请及附件资料的扫描件打包，文件命名为：××公司+省份+城市加盟申请，
 									发至<font color="orange">liuguofu@dorcen.com</font>或<font color="orange">zhangjianguo@dorcen.com</font>邮箱，
@@ -133,7 +134,7 @@
 					
 						
 							<li class="list-group-item" style="padding: 35px 15px;border: 2px solid #DDDDDD;">
-								<div class="text-center" style="font-size: 25px ;">
+								<div class="text" style="font-size: 25px ;">
 									<font color="orange">03</font>
 									.接到金坛大乘通知后，请将加盟申请装订及附件资料（每页加盖公章及骑缝章），将装订好的所有文件尽快用特快专递邮寄至：
 								</div>
