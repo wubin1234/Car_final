@@ -3,3 +3,5 @@ D:\git\Git\git-repo\Car_final\Five_Cars\src\main\java\tech\aistar\util\Hibernate
 D:\git\Git\git-repo\Car_final\Five_Cars\src\main\java\tech\aistar\dao\impl\UserDaoImpl.java
 D:\git\Git\git-repo\Car_final\Five_Cars\src\main\java\tech\aistar\dao\IUserDao.java
 D:\git\Git\git-repo\Car_final\Five_Cars\src\main\java\tech\aistar\entity\User.java
+D:\git\Git\git-repo\Car_final\Five_Cars\src\main\java\tech\servlet\register\LoginController.java
+D:\git\Git\git-repo\Car_final\Five_Cars\src\main\java\tech\servlet\register\RegisterController.java

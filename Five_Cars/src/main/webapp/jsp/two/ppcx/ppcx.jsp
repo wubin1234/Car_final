@@ -68,7 +68,7 @@
 <!--响应式导航结束-->
 
 <div class="row">
-    <img src="${path}/img/two/30.PNG" class="img-responsive" alt="Responsive image">
+    <img src="${path}/img/two/30.PNG" class="img-responsive" alt="Responsive image" style="width: 100%;height: auto;">
 </div>
 <div class="container">
     <div class="jumbotron" style="    background-color:#000000;">

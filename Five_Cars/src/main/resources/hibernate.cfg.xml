@@ -26,7 +26,7 @@
         <!--update - 如果不存在表,则第一次创建,以后就是更新
 
             create - 永远都是先删除再创建-->
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
         <!--配置映射的实体类-->
         <mapping class="tech.aistar.entity.User"></mapping>
     </session-factory>

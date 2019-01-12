@@ -26,4 +26,9 @@ public class TestUserDao {
         //调用接口中的保存方法
         userDao.save(user);
     }
+    @Test
+    public void testFindByUserName(){
+        User user = userDao.getByUserName("456");
+        System.out.println(user);
+    }
 }
