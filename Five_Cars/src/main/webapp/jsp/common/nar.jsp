@@ -6,6 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <div class="container-fluid">
     <div class="row">
         <nav class="navbar navbar-default" role="navigation">
@@ -22,9 +24,19 @@
                 <div>
                     <div class="collapse navbar-collapse" id="example-navbar-collapse">
                         <ul class="nav navbar-nav nar navbar-right">
+
+                            <c:if test="${param.username == null}">
                             <li>
                                 <a href="${path}/jsp/one/login.jsp">登录注册</a>
                             </li>
+                            </c:if>
+
+                            <c:if test="${param.username != null}">
+                            <li>
+                                <a href="">欢迎，${param.username}</a>
+                            </li>
+                            </c:if>
+
                             <li>
                                 <a href="${path}/jsp/four/Business_cooperation.jsp">商务合作</a>
                             </li>

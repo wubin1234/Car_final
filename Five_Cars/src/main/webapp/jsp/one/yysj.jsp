@@ -48,7 +48,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="submit" style="margin-top: 30px;">
-            <form class="form-horizontal" role="form">
+            <form class="form-horizontal" role="form" action="${path}/yysj" method="post">
                 <div class="form-group">
                     <label for="firstname" class="col-sm-2 control-label">选择车型:</label>
                     <div class="col-md-2">
@@ -92,30 +92,30 @@
                     <label for="lastname" class="col-sm-2 control-label">填写信息:</label>
                     <div class="col-md-2">
                         <h3>姓名</h3>
-                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入姓名">
+                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入姓名" name="username">
                     </div>
                     <div class="col-md-2">
                         <h3>电话</h3>
-                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入电话">
+                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入电话" name="phone">
                     </div>
                     <div class="col-md-2">
                         <h3>时间</h3>
-                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入时间">
+                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入时间" name="time">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">经销商:</label>
                     <div class="col-md-2">
                         <h3>省份</h3>
-                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入省份">
+                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入省份" name="province">
                     </div>
                     <div class="col-md-2">
                         <h3>城市</h3>
-                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入城市">
+                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入城市" name="city">
                     </div>
                     <div class="col-md-2">
                         <h3>经销商</h3>
-                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入经销商">
+                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入经销商" name="distributor">
                     </div>
                 </div>
                 <div class="form-group" style="margin-top: 30px;">

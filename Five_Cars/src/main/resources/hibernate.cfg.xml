@@ -29,5 +29,8 @@
         <property name="hbm2ddl.auto">update</property>
         <!--配置映射的实体类-->
         <mapping class="tech.aistar.entity.User"></mapping>
+        <mapping class="tech.aistar.entity.Appointment"></mapping>
+        <mapping class="tech.aistar.entity.Message"></mapping>
+
     </session-factory>
 </hibernate-configuration>

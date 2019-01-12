@@ -39,7 +39,9 @@ public class LoginController extends HttpServlet {
 
         //登录成功
         if(password.equals(user.getPassword())){
-            resp.sendRedirect("/Five_Cars/jsp/one/index.jsp");
+            //将用户放入到request作用域
+            req.setAttribute("username",user.getUsername());
+            resp.sendRedirect("/Five_Cars/jsp/one/index.jsp?username="+username);
             return;
         }
 

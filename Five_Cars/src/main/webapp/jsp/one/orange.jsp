@@ -82,7 +82,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="submit" style="margin-top: 200px; margin-left: 100px;">
-            <form class="form-horizontal" role="form">
+            <form class="form-horizontal" role="form" action="${path}/orange" method="post">
                 <div class="form-group">
                     <label for="firstname" class="col-sm-2 control-label">留言类别：</label>
                     <div class="col-md-2">
@@ -105,17 +105,17 @@
                     <label for="lastname" class="col-sm-2 control-label">基本信息：</label>
                     <div class="col-md-2">
                         <h3>姓名</h3>
-                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入姓名">
+                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入姓名" name="username">
                     </div>
                     <div class="col-md-2">
                         <h3>电话</h3>
-                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入电话">
+                        <input type="text" class="form-control col-md-2" id="lastname" placeholder="请输入电话" name="phone">
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="lastname" class="col-sm-2 control-label">留言内容：</label>
                     <div class="col-md-4">
-                        <textarea class="form-control" rows="3" placeholder="请输入留言内容"></textarea>
+                        <textarea class="form-control" rows="3" placeholder="请输入留言内容" name="content"></textarea>
                     </div>
                 </div>
                 <div class="form-group" style="margin-top: 30px;">
