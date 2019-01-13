@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 
@@ -129,6 +130,32 @@
 
 </div>
 <!--表单结束-->
+
+<%--表格开始--%>
+<div class="container" style="margin-top: 80px">
+    <div class="row">
+        <div class="table-responsive">
+            <table class="table">
+                <caption>其他人说：</caption>
+                <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>内容</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <c:forEach items="${messageList}" var="m" varStatus="vs">
+                    <tr>
+                        <td>${m.username}</td>
+                        <td>${m.content}</td>
+                    </tr>
+                </c:forEach>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 </body>
 <!--
     引入jquery文件
