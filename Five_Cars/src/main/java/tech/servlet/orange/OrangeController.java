@@ -1,5 +1,6 @@
 package tech.servlet.orange;
 
+import service.Impl.IMessageService;
 import tech.aistar.dao.IAppointmentDao;
 import tech.aistar.dao.IMessageDao;
 import tech.aistar.dao.impl.AppointmentDaoImpl;
@@ -13,6 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 /**
  * Created by wubin on 2019/1/12.
@@ -44,6 +46,15 @@ public class OrangeController extends HttpServlet{
         message.setContent(content);
 
         messageDao.save(message);
+
+        //获取所有的图书信息
+        List<Message> messages = messageDao.findAll();
+
+        //将留言放入到request作用域
+        req.setAttribute("messageList",messages);
+
+        //转发
+        req.getRequestDispatcher("/jsp/one/orange.jsp").forward(req,resp);
 
         //重定向
         resp.sendRedirect("/Five_Cars/jsp/one/orangesuccess.jsp");

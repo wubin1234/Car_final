@@ -9,6 +9,8 @@ import tech.aistar.entity.Appointment;
 import tech.aistar.entity.Message;
 import tech.aistar.entity.User;
 
+import java.util.List;
+
 /**
  * Created by wubin on 2019/1/12.
  */
@@ -33,4 +35,13 @@ public class TestMessage {
     public void testFindByUserName(){
         return;
     }
+
+    @Test
+    public void testFindAll(){
+        List<Message> list = messageDao.findAll();
+        for(Message m:list){
+            System.out.println(m);
+        }
+    }
+
 }

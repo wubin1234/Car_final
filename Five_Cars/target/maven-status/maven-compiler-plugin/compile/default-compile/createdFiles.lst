@@ -1,5 +1,6 @@
 tech\servlet\login\LoginController.class
 tech\servlet\register\RegisterController.class
 listener\CreatePathListener.class
+service\Impl\IMessageService.class
 tech\servlet\yysj\YysjController.class
 tech\servlet\orange\OrangeController.class

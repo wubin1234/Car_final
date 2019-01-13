@@ -17,7 +17,7 @@
     <!--引入bootstrap.min.css文件-->
     <link rel="stylesheet" type="text/css" href="${path}/plugins/bootstrap/css/bootstrap.min.css" />
     <!--引入自定义css文件-->
-    <link rel="stylesheet" href="${path}/css/one/index.css" />
+    <link rel="stylesheet" href="${path}/css/navbar.css" />
 </head>
 
 <body>
